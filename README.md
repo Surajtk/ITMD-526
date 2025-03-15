@@ -29,10 +29,95 @@ README.md -  This document, providing project documentation and instructions.
 
 [USED-CAR-SALES Dataset](https://www.kaggle.com/datasets/tsaustin/us-used-car-sales-data)
 
-[Safer-Cars Dataset
-](https://data.transportation.gov/Automobiles/New-Car-Assessment-Program-NCAP-5-Star-Safety-Rati/jrw6-ye84/about_data)
+[Safer-Cars Dataset](https://data.transportation.gov/Automobiles/New-Car-Assessment-Program-NCAP-5-Star-Safety-Rati/jrw6-ye84/about_data)
 
 Data Format: CSV
+
+#### Data dictionary: 
+
+#### CAR_FEATURES_AND_PRICES         
+Row count - 11905       
+
+| Column Name      | Description                               |
+| :--------------- | :---------------------------------------- |
+| MAKE             | Car manufacturer                          |
+| MODEL            | Car model                                 |
+| YEAR             | Year the car was manufactured             |
+| MARKETCATEGORY   | Market category(ies) of the vehicle       |
+| VEHICLESIZE      | Size of the vehicle                       |
+| VEHICLESTYLE     | Style of the vehicle                      |
+| HIGHWAYMPG       | Highway miles per gallon                  |
+| CITYMPG          | City miles per gallon                     |
+| POPULARITY       | Popularity rating of the vehicle          |
+| MSRP             | Manufacturer's Suggested Retail Price    |
+| ENGINEHP         | Engine horsepower                         |
+
+#### CAR-SALES       
+Row count - 157
+
+| Column Name            | Description                               |
+| :--------------------- | :---------------------------------------- |
+| MAKE                   | Car manufacturer                          |
+| MODEL                  | Car model                                 |
+| SALESINTHOUSANDS       | Sales in thousands of units               |
+| VEHICLETYPE            | Type of vehicle                           |
+| LATESTLAUNCH           | Date of the latest vehicle launch         |
+| YEARRESALEVALUE        | Year resale value                         |
+| PRICEINTHOUSANDS       | Price in thousands                        |
+| HORSEPOWER             | Horsepower of the vehicle                 |
+| FUELCAPACITY           | Fuel capacity                             |
+| FUELEFFICIENCY         | Fuel efficiency                           |
+| POWERPERFORMANCEFACTOR | Power performance factor                  |
+| ENGINESIZE             | Engine size                               |
+
+#### USED-CAR-SALES
+Row count - 10000
+
+| Column Name      | Description                               |
+| :--------------- | :---------------------------------------- |
+| MAKE             | Car manufacturer                          |
+| MODEL            | Car model                                 |
+| YEAR             | Year the car was manufactured             |
+| ENGINESIZE       | Engine size                               |
+| FUELTYPE         | Fuel type of the vehicle                  |
+| TRANSMISSION     | Type of transmission                      |
+| MILEAGE          | Mileage of the vehicle                    |
+| DOORS            | Number of doors                           |
+| OWNERCOUNT       | Number of previous owners                 |
+| PRICE            | Price of the used car                     |
+
+#### Safer-Cars
+Row count - 11736
+
+| Column Name            | Description                                   |
+| :--------------------- | :-------------------------------------------- |
+| MAKE                   | Car manufacturer                              |
+| MODEL                  | Car model                                     |
+| MODELYR                | Model year                                    |
+| BODYSTYLE              | Body style of the vehicle                     |
+| VEHICLETYPE            | Type of vehicle                               |
+| DRIVETRAIN             | Drive train of the vehicle                    |
+| PRODUCTIONRELEASE      | Production release year                       |
+| VEHICLECLASS           | Vehicle class                                 |
+| BODYFRAME              | Body frame type                               |
+| NUMOFSEATING           | Number of seating                             |
+| FRNTTESTNO             | Front test number                             |
+| FRNTVIN                | Front VIN number                              |
+| FRNTDRIVSTARS          | Front driver star rating                      |
+| FRNTPASSSTARS          | Front passenger star rating                   |
+| OVERALLFRNTSTARS       | Overall front star rating                     |
+| NETCOMPPASS            | Net composite passenger rating                |
+| SIDEDRIVSTARS          | Side driver star rating                       |
+| SIDEPASSSTARS          | Side passenger star rating                    |
+| SIDEBARRIERSTARS       | Side barrier star rating                      |
+| COMBFRNTSTARS          | Combined front star rating                    |
+| COMBREARSTARS          | Combined rear star rating                     |
+| OVERALLSIDESTARS       | Overall side star rating                      |
+| ROLLOVERSTARS          | Rollover star rating                          |
+| NHTSABACKUPCAMERA      | NHTSA backup camera availability              |
+| BACKUPCAMERA           | Backup camera availability                    |
+| NUMOFSEATING_NEW       | Number of seating (new format)                |
+| OVERALLSTARS           | Overall star rating                           |
 
 ## ETL Implementation
 
