@@ -595,6 +595,12 @@ The snowflake aspect is evident in the ENGINE_DIMENSION and VEHICLE_DIMENSION ta
 
 This design allows for efficient querying and analysis by separating measures from descriptive attributes, and by reducing data redundancy.
 
+#### ER Diagram: 
+![*ER Diagram*](./Data_Warehouse_Implementation_Project/images/ER%20Diagram.png)
+
+This ER diagram visually represents the snowflake schema used in the project. It shows the relationships between the fact tables (`CAR_FEATURES_FACT`, `CAR_SALES_FACT`, `USED_CAR_PRICES_FACT`, `SAFER_CARS_FACT`, `VEHICLE_SAFETY_FACT`) and the dimension tables (`CAR_MAKE_DIMENSION`, `CAR_MODEL_DIMENSION`, `ENGINE_DIMENSION`, `TRANSMISSION_DIMENSION`, `VEHICLE_DIMENSION`, `SAFETY_RATING_DIMENSION`, `MARKET_CATEGORY_DIMENSION`, `FUEL_DIMENSION`).
+
+
 #### Relationships:
 
 #### Fact to Dimension Relationships:
